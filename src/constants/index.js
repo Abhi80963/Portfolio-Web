@@ -17,8 +17,8 @@ import {
   docker,
   Meta,
   Peasunet,
-  carrent,
-  jobit,
+  resumely,
+  meetup,
   Express,
 } from "../assets";
 
@@ -149,8 +149,8 @@ const testimonials = [
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but he proved me wrong.",
     name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+    designation: "CEO",
+    company: "Prasunet",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
@@ -173,12 +173,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Resumely",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+"Web-based platform that enables users to create, customize, and download professional resumes using AI-powered tools, offering a fast and intelligent solution for job seekers.",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
@@ -190,29 +190,29 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: resumely,
+    source_code_link: "https://github.com/Abhi80963/Resumely",
   },
   {
-    name: "Job IT",
+    name: "MeetUP",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application platform built with Next.js that enables users to host and join high-quality video calls, providing a seamless and real-time communication experience for meetings, events, and collaboration.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "getStream.io",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "typescript",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: meetup,
+    source_code_link: "https://github.com/Abhi80963/MeetUP",
   },
   {
     name: "Express News App",

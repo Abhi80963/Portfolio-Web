@@ -23,8 +23,8 @@ import typescript from "./tech/typescript.png";
 import Meta from "./company/Meta.jpg";
 import Peasunet from "./company/Prasunet.jpg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import resumely from "./resumely.png";
+import meetup from "./meetup.png";
 import Express from "./Express.png";
 
 export {
@@ -50,7 +50,7 @@ export {
   typescript,
   Meta,
   Peasunet,
-  carrent,
-  jobit,
+  resumely,
+  meetup,
   Express,
 };
